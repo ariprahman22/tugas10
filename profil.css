@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(pineapple-watermelon-apples-fruit-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ nav{
+    display: flex;
+    align-items: center;
+    padding: 45px 8% 0 8%;
+    justify-content: space-between;
+}
+.logo{
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #20b2aa;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #2720b2;
+    transition: 1s;
+}
+.colom {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    color: #fff;
+}
+.colom h3{
+    font-size: 45px;
+    color: #20b2aa;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(pergantian-makna-komputer-dari-masa-ke-masa-tekstory.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(elektronk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(memori\ komputer.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.button{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(sayuran.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row img{
+    width: 250px;
+}
+.colom1{
+    float: left;
+    width: 47.50%;
+    padding: 32px;
+    color: #fff;
+    height: 10%;
+}
+.colom2{
+    float: left;
+    width: 47.50%;
+    padding: 32px;
+    color: #fff;
+    height: 10%;
+}
+.colom3{
+    float: left;
+    width: 47.50%;
+    padding: 32px;
+    color: #fff;
+    height: 10%;
+}
+ a:hover{
+    background-color: #20b2aa;
+}
+
+footer{
+    position: relative;
+    width: 1474px;
+    height: 250px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #f3ecec;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    color: #e8e0e0;
+    text-align: center;
+    width: 500px;
+    line-height: 26px;
+}
+.sosial{
+    display: flex;
+}
+.sosial a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #20b2aa;
+    border-radius: 50px;
+    margin: 20px 10px;
+    text-decoration: none;
+    color: #3d0404;
+    font-size: 20px;
+}
+.sosiala:hover{
+    transition: .1s;
+
+}
+.end{
+    position: absolute;
+    color: #20b2aa;
+    bottom: 35px;
+}
